@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hollow News</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Hollow News</h1>
+    <h2><em>Lo último sobre Hollow Knight y Silksong</em></h2>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a> |
+    <a href="contacto.html">Contacto</a> |
+    <a href="configuracion.html">Configuración</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Últimas noticias</h2>
+
+      <article>
+        <h3>¡Se revela nueva demo de Silksong!</h3>
+        <p><strong>Team Cherry</strong> presentó una demo exclusiva de <strong>Hollow Knight: Silksong</strong> en un evento privado. Los fans quedaron asombrados por su velocidad y nuevos enemigos.</p>
+        <img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2025/04/silksong-in-a-green-environment.png" alt="Hornet en Silksong" width="400">
+      </article>
+
+      <article>
+        <h3>5 cosas que debes saber sobre Silksong</h3>
+        <p><strong>Hornet</strong>, la protagonista, explorará el reino de <i>Pharloom</i>, enfrentando nuevas criaturas, zonas secretas y desafíos. <strong>Silksong</strong> será mucho más vertical, rápido y técnico que el Hollow Knight original.</p>
+        <img src="https://cdn.alfabetajuega.com/alfabetajuega/2022/06/Hollow-Knight-Silksong.1655113544.7332.jpg" alt="Hornet de Silksong" width="300">
+      </article>
+    </section>
+
+    <section>
+      <h2>Contenido Multimedia</h2>
+
+      <figure>
+        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/07/hollow-knight-silksong-level.jpg" alt="Mapa de Silksong" width="400">
+        <figcaption>Arte oficial: Hornet en Pharloom</figcaption>
+      </figure>
+
+      <h3>Tráiler oficial</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/JSfuFlhsxZY"
+        title="Tráiler Hollow Knight Silksong" frameborder="0" allowfullscreen></iframe>
+
+      <h3>Video de gameplay exclusivo</h3>
+      <video width="560" controls poster="https://via.placeholder.com/560x315?text=Silksong+Gameplay">
+        <source src="https://archive.org/download/hollow-knight-silksong-switch-gameplay/y2mate.com%20-%20HOLLOW%20KNIGHT%20SILKSONG%20SWITCH%20Gameplay%202%20BOSSES%20_1080p.mp4" type="video/mp4">
+        Tu navegador no soporta este video.
+      </video>      
+    </section>
+  </main>
+
+  <aside>
+    <h2>Sobre mí</h2>
+    <p>Hola, soy <span style="color:blue;">Cristian Jimenez</span>, fanático de Hollow Knight y todo lo relacionado con <strong>Silksong</strong>. Aquí comparto noticias, teorías y todo lo nuevo sobre este juego increíble.</p>
+  </aside>
+
+  <footer>
+    <p>Contacto: <a href="mailto:email@ejemplo.com">cristianjimbriaco@gmail.com</a></p>
+    <audio controls>
+      <source src="https://samplelib.com/lib/preview/mp3/sample-3s.mp3" type="audio/mp3">
+      Tu navegador no soporta el audio.
+    </audio>
+  </footer>
+
+  <button id="chat-btn">Chat</button>
+
+<script>
+  const btn = document.getElementById('chat-btn');
+  btn.addEventListener('click', () => {
+    btn.classList.add('hide');
+    setTimeout(() => {
+      btn.classList.remove('hide');
+    }, 6000); // 5s + 1s animación
+  });
+</script>
+
+</body>
+</html>

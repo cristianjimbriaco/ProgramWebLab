@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hollow News</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Hollow News</h1>
+    <h2><em>Lo último sobre Hollow Knight y Silksong</em></h2>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a> |
+    <a href="contacto.html">Contacto</a> |
+    <a href="configuracion.html">Configuración</a>
+  </nav>
+
+  <main>
+    <h2>Configuración de tu perfil</h2>
+    <form action="#" method="post" name="ConfiguracionDelPerfil">
+      <fieldset>
+        <legend>Personalización de jugador</legend>
+
+        <label for="foto">Foto de perfil:</label>
+        <input type="file" id="foto" name="foto" accept=".jpg, .png">
+
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha">
+
+        <label>Género:</label>
+        <input type="radio" id="masculino" name="genero" value="hombre">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="femenino" name="genero" value="mujer">
+        <label for="femenino">Femenino</label>
+
+        <label for="color">Color favorito:</label>
+        <input type="color" id="color" name="color" value="#ffffff">
+      </fieldset>
+
+      <fieldset>
+        <legend>Datos de acceso</legend>
+
+        <label for="usuario">Nombre de usuario:</label>
+        <input type="text" id="usuario" name="usuario" placeholder="Ej: Caballerito13">
+
+        <label for="clave-antigua">Antigua contraseña:</label>
+        <input type="password" id="clave-antigua" name="clave-antigua" minlength="8" required>
+
+        <label for="clave-nueva">Nueva contraseña:</label>
+        <input type="password" id="clave-nueva" name="clave-nueva" minlength="8" required>
+
+      </fieldset>
+
+      <input type="submit" value="Guardar cambios">
+    </form>
+  </main>
+
+</body>
+</html>
