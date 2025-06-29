@@ -1,0 +1,32 @@
+/* views/config/config.css */
+form {
+  background-color: var(--panel-bg);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+fieldset + fieldset {
+  margin-top: 1.5rem;
+}
+
+button[type="submit"] {
+  margin-top: 1rem;
+  float: right;
+}
+
+form {
+  color: white;
+}
+
+form label,
+form legend {
+  color: white;
+}
+
+form input,
+form select,
+form textarea {
+  color: white;
+}
+

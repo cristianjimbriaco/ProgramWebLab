@@ -1,0 +1,32 @@
+/* views/contact/contact.css */
+form {
+  background-color: var(--panel-bg);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+form {
+  color: white;
+}
+
+form label,
+form legend {
+  color: white;
+}
+
+form input,
+form select,
+form textarea {
+  color: white;
+}
+

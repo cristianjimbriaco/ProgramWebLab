@@ -1,0 +1,9 @@
+/* shared/css/vars.css */
+:root {
+  --accent: #8b5cf6;            /* tono violeta claro */
+  --accent-light: #c084fc;      /* violeta más claro */
+  --accent-dark: #5b21b6;       /* violeta oscuro */
+  --text-color: #eeeeee;        /* texto principal */
+  --panel-bg: #1e1e2f;          /* fondo de tarjetas y formularios */
+  --border-color: #3a3a4f;      /* bordes sutiles */
+}

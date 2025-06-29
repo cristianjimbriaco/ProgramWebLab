@@ -1,0 +1,42 @@
+/* views/share/share.css */
+form {
+  background-color: var(--panel-bg);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+h2 {
+  color: var(--accent-hornet);
+}
+
+label {
+  color: white;
+  font-weight: 500;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+  background-color: #2b2b2b;
+  color: white;
+  border: 1px solid #444;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--accent-hornet);
+  box-shadow: 0 0 6px var(--accent-hornet);
+}
+
+button[type="submit"] {
+  background-color: var(--accent-hornet);
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #a42f45;
+}
